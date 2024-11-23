@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Code Practice Platform</title>
+  <link rel="stylesheet" href="home.css">
+  <script src="main.js" defer></script>
+</head>
+<body class="theme-light">
+  <!-- Nav Bar -->
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="notes.html">Notes</a></li>
+      <li><a href="test.html">Test Problems</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="home-header">
+    <h1>Code Practice Platform</h1>
+    <p>Your platform to improve your coding skills with real-time practice!</p>
+  </header>
+
+  <!-- Main Content divided into 3 blocks -->
+  <section class="section-container">
+
+    <!-- Div Block 1: Notes Section -->
+    <div class="section" id="notes-section">
+      <h2>Notes</h2>
+      <p>Learn programming concepts with easy-to-understand explanations and code snippets.</p>
+      <a href="notes.html" class="section-btn">Go to Notes</a>
+    </div>
+
+    <!-- Div Block 2: Test Problems Section -->
+    <div class="section" id="test-section">
+      <h2>Test Problems</h2>
+      <p>Practice with coding problems and track your progress. Test your skills on a variety of problems!</p>
+      <a href="test.html" class="section-btn">Go to Test Problems</a>
+    </div>
+
+    <!-- Div Block 3: Themes Section (with theme buttons) -->
+    <div class="section" id="themes-section">
+      <h2>Themes</h2>
+      <p>Customize the look of the platform by choosing your favorite theme!</p>
+      
+      <!-- Theme buttons within this section -->
+      <div class="theme-options">
+        <button class="theme-btn" onclick="changeTheme('light')">
+          Light <span class="color-circle light"></span>
+        </button>
+        <button class="theme-btn" onclick="changeTheme('dark')">
+          Dark <span class="color-circle dark"></span>
+        </button>
+        <button class="theme-btn" onclick="changeTheme('autumn')">
+          Autumn <span class="color-circle autumn"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

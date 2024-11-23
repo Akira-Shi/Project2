@@ -1,0 +1,83 @@
+/* Styling for Test Problems Page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  .problem-container {
+    margin-bottom: 30px;
+  }
+  
+  .editor-container {
+    position: relative;
+    margin-top: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 150px;
+    font-family: 'Courier New', monospace;
+    padding: 10px;
+  }
+  
+  .hint-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hint {
+    display: none;
+    color: gray;
+    margin-top: 10px;
+  }
+  
+  nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: sticky;  /* Make the nav sticky */
+    top: 0;            /* Stick to the top */
+    z-index: 1000;    /* Ensure it's above other content */
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
